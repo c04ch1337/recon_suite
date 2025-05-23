@@ -1,4 +1,5 @@
-### #!/bin/bash ###
+# Scan Script
+#!/bin/bash
 
 TARGET=$1
 
