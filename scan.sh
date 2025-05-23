@@ -8,7 +8,7 @@ if [ -z "$TARGET" ]; then
   exit 1
 fi
 
-docker run --rm -it -v $(pwd):/recon recon-suite bash -c "
+docker run --rm -it -v $(pwd):/recon recon_suite bash -c "
   echo '[*] Starting Recon for $TARGET';
   
   echo '[+] Subfinder...';
